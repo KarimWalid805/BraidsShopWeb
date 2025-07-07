@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HeaderFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="Shop.css">
+    
+    <script src="Shop.js"></script>
+</head>
+<body>
+    
+    <nav>
+        
+        <ul>
+            
+            <img src="images/Logo.png" alt="" id="logo">
+            <li>
+                <a href="Main.html">HOME</a>
+            </li>
+            <li>
+                <a href="About.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="Shop.html">SHOP</a>
+            </li>
+            <li>
+                <a href="Contact.html">CONTACT</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <div id="Text"><h2>🎄
+
+        This Christmas, elevate your look with our premium braiding hair and accessories. From festive colors to timeless styles, we have everything you need to stand out this season.
+
+        Enjoy exclusive holiday discounts and free shipping on orders over $50.
+        
+        Shop now and make your holiday unforgettable with a look that’s uniquely yours.</div>
+    <div id="container">
+        <section id="products">
+            
+            <div class="elements">
+                <div class="product">
+                    <img 
+                    src=
+"images/Hair Clip.jpg"
+                     alt="Hair Clip Set">
+                    <h3>Hair Clip Set</h3>
+                    <p><span style="color:red">$8.00 -> </span><span style="color:green">$5.00 </span></p>
+                    <button onclick="addToCart('Hair Clip Set', 5.00)">
+                          Add to Cart
+                      </button>
+                </div>
+                <div class="product">
+                    <img 
+                    src=
+"images/Hair Extensions.jpg"
+                     alt="Hair Extension Set">
+                    <h3>Hair Extension Set</h3>
+                    <p><span style="color:red">$15.00 -> </span><span style="color:green">$10.00 </span></p>
+                    <button onclick="addToCart('Hair Extension Set', 10.00)">
+                          Add to Cart
+                      </button>
+                </div>
+                <div class="product">
+                    <img src=
+"images/Braiding Brush.jpg" alt="Braiding Brush">
+                    <h3>Braiding Brush</h3>
+                    <p><span style="color:red">$16.00 -> </span><span style="color:green">$8.00 </span></p>
+                    <button onclick="addToCart('Braiding Brush', 8.00)">
+                          Add to Cart
+                      </button>
+                </div>
+                <div class="product">
+                    <img src=
+"images/Braiding Gel.jpg"
+                     alt="Gel">
+                    <h3>Gel</h3>
+                    <p><span style="color:red">$20.00 -> </span><span style="color:green">$12.00 </span></p>
+                    <button onclick="addToCart('Gel', 12.00)">
+                          Add to Cart
+                      </button>
+                </div>
+            </div>
+        </section>
+        <aside id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+            </ul>
+            <button id="buy-button" onclick="checkout()">Buy</button>
+        </aside>
+    </div>
+   
+    <audio autoplay loop>
+        <source src="Videos/Jingle Bells (Instrumental).mp3" >
+    
+  Your browser does not support the audio element.
+  </audio> 
+      
+
+
+  <div id="background">
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+    <div><span></span></div>
+  </div>
+
+
+    <footer>
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="https://www.instagram.com/_braids.by.n_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="icon ion-social-instagram"></i></a><a href=""><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="Main.html">Home</a></li>
+                    <li class="list-inline-item"><a href="Shop.html">Shop</a></li>
+                    <li class="list-inline-item"><a href="About.html">About</a></li>
+                    <li class="list-inline-item"><a href="Terms.html">Terms</a></li>
+                    <li class="list-inline-item"><a href="Policy.html">Privacy Policy</a></li>
+                </ul>
+                <p class="copyright">Braids By N © 2024</p>
+    </footer>
+</body>
+</html>

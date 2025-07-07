@@ -1,0 +1,58 @@
+body{
+    background-image: url("images/360_F_390334340_qL1v7bEuZ4ebB3VIG4fawUzhnx5C7Ioo.jpg");
+}
+
+#Table{
+    display: flex;
+}
+#fname{
+    padding: 20px;
+    font-size: larger;
+}
+
+#lname{
+    padding: 20px;
+    font-size: larger;
+}
+
+#phone{
+    padding: 20px;
+    font-size: larger;
+}
+
+#email{
+    padding: 20px;
+    font-size: larger;
+}
+
+#contactForm{
+    border-radius: 40px;
+    background-color: bisque;
+    width: 37%;
+    padding: 20px;
+    
+}
+
+h1{
+    font-size: small;
+}
+
+#or{
+    padding-left: 10%;
+    padding-top: 13%;
+    padding-right: 10%;
+}
+
+span{
+    font-style: italic;
+}
+
+
+#contactForm2{
+    border-radius: 40px;
+    background-color: burlywood;
+    width: 37%;
+    padding: 20px;
+    font-size: larger;
+    
+}
